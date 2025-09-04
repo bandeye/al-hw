@@ -20,6 +20,20 @@
 
 # Task 3: API Testing
 
+## Setup Server
+
+1. install nodejs/npm
+2. cd /app
+3. npm i
+4. node server.js
+
+## Setup test
+
+1. download java
+2. download mvn
+3. cd /tests
+4. mvn clean test
+
 # Bonus questions
 
 ## Docker
