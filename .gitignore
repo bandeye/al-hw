@@ -1,4 +1,6 @@
-/app/node_modules
-/app/package-lock.json
+/**/node_modules
+/**/package-lock.json
 /**/.mvn
 /**/target
+/**/test-results
+/**/playwright-report

@@ -18,6 +18,17 @@
 
 # Task 2: Frontend Testing
 
+## Setup test
+
+1. install nodejs/npm
+2. cd /tests/ui
+3. npm i
+4. npx playwright install chromium
+5. (npx playwright install-deps)
+6. define necessary environment variables
+7. npx playwright test --ui
+8. npx playwright show-report
+
 # Task 3: API Testing
 
 ## Setup Server
@@ -31,7 +42,7 @@
 
 1. download java
 2. download mvn
-3. cd /tests
+3. cd /tests/api
 4. mvn clean test
 
 # Bonus questions
@@ -44,7 +55,7 @@ In my experience what I've used so far as a docker container is a selenoid image
 
 Another usage I've had is to use playwright containers acting like browsers and it would enable remote execution for me.
 
-From an automated testing environment perspective what I could imagine is that an image would contain for example for Java based UI test automatin projects the following: java, maven, eclipse/vscode, browsers.
+From an automated testing environment perspective what I could imagine is that an image would contain for example for Java based UI test automation projects the following: java, maven, eclipse/vscode, browsers.
 
 ## JUnit + Selenium
 
@@ -82,4 +93,3 @@ Also, with trigger options in Jenkins it is possible to configure which action s
 # Clarifying questions
 
 1. "Add to Shopping List" means "Add to Cart"?
-2. 
